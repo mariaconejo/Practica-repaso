@@ -13,7 +13,7 @@ for(let i = 0; i < size; i++) {
         } 
     }
 // salto de linea 
-    character += '\n';
+    character += '\n'; 
 }  
 // imprime todo 
 console.log(character);

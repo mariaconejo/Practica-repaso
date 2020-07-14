@@ -1,6 +1,7 @@
 let number = parseInt(prompt("Enter a number"));
 let prime = true;
-    // 0 y 1 no se consideran numeros primos ni compuesto y //4 es un numero compuesto porque que tiene mas de dos //divisores
+    // 0 y 1 no se consideran numeros primos ni compuesto y 
+    //4 es un numero compuesto porque que tiene mas de dos divisores
     // los numeros primos y compuestos solamente son los naturales positvios mayores o iguales a 2 
     // si digita algo que no sea un numero o un numero menor //a 2 da error
 if(!isNaN(number) &&  number >= 2){
@@ -13,11 +14,11 @@ if(!isNaN(number) &&  number >= 2){
         prime = false;
       }
     }
-  // Si no se pudo dividir por ninguno de los casos , //entonces el numero es primo
+  // Si no se pudo dividir por ninguno de los dos casos , //entonces el numero es primo
   if ( prime == true){
-    console.log("It's prime number");
+    console.log(`${number}, It's prime number`);
   }else{
-    console.log("It's composite number");
+    console.log(`${number}, It's composite number`);
   }
 }else{
   console.log('error');
